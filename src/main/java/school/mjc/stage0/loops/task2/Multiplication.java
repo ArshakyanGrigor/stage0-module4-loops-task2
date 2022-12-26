@@ -10,10 +10,9 @@ public class Multiplication {
                     System.out.println(number);
                 }
             }
-        }
-        else {
+        } else {
             int minusNumber = multiplyByAndToInclusive * -1;
-            minusNumber = minusNumber *multiplyByAndToInclusive;
+            minusNumber = minusNumber * multiplyByAndToInclusive;
             while (minusNumber <= number) {
                 number += multiplyByAndToInclusive;
                 if (number >= minusNumber) {
